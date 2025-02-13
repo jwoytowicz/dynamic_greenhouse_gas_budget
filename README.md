@@ -1,4 +1,4 @@
-Here you can find additional calculations for the paper "Determination of a dynamic top-down greenhouse gas budget for buildings in Germany".
+Here you can find additional calculations for the paper "Determination of a dynamic top-down greenhouse gas budget for buildings in Germany" from Woytowicz J, Stöckle L, Präger L & Lang W (2025).
 
 The calculations are done with python and different libraries. Germany is used as a case study.
 
