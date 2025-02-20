@@ -164,10 +164,6 @@ ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 
 plt.show()
 
-# Print result
-print(f"2025: dynamic = {dynamic(T_min):.2f} kg CO₂e/(m²·a)")
-print(f"2045: dynamic = {dynamic(T_max):.2f} kg CO₂e/(m²·a)")
-
 dyn_results = {year: dynamic(year) for year in years}
 
 # Convert results to DataFrame
@@ -175,4 +171,4 @@ df_results = pd.DataFrame(list(dyn_results.items()), columns=["Year", "Dynamic G
 
 # Print results for each year
 for year, value in dyn_results.items():
-    print(f"{year}: dynamic = {value:.2f} kgCO₂e/(m²·a)")
+    print(f"{year}: {value:.2f} kgCO₂e/(m²·a)")
