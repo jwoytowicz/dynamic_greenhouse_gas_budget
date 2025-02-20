@@ -149,4 +149,12 @@ plt.show()
 # Print result
 print(f"2025: dynamic = {dynamic(T_min):.2f}  kgCO₂e/(m²·a)")
 print(f"2045: dynamic = {dynamic(T_max):.2f}  kgCO₂e/(m²·a)")
-print(f"--> in 2045 nur {100*dynamic(T_max)/dynamic(T_min):.1f}% des 2025-Wertes")
+
+dyn_results = {year: dynamic(year) for year in years}
+
+# Convert results to DataFrame
+df_results = pd.DataFrame(list(dyn_results.items()), columns=["Year", "Dynamic GHG Budget"])
+
+# Print results for each year
+for year, value in dyn_results.items():
+    print(f"{year}: dynamic = {value:.2f} kgCO₂e/(m²·a)")
