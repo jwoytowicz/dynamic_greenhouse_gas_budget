@@ -8,8 +8,6 @@ The calculations are structured in the folders as follows:
 3) The first two folders are then combinded to calculate the dynamic greenhouse gas budget for operational and embodied emissions in the folder "03_dynamic budget determination".
 
 The yearly results for the operational greenhouse gas budget are: 
-2025: 6.86 kg CO₂e/(m²·a)
-2045: 1.05 kg CO₂e/(m²·a)
 2025: 6.86 kgCO₂e/(m²·a)
 2026: 6.64 kgCO₂e/(m²·a)
 2027: 6.39 kgCO₂e/(m²·a)
