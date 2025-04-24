@@ -1,6 +1,6 @@
 Here you can find additional calculations for the paper "Determination of a dynamic top-down greenhouse gas budget for buildings in Germany" from Woytowicz J, Stöckle L, Präger L & Lang W (2025).
 
-The calculations are done with python and different libraries [1,2]. Germany is used as a case study. The 
+The calculations are done with python and different libraries [1,2]. Germany is used as a case study.
 
 The calculations are structured in the folders as follows:
 1) "01_static budget determination" calculates a static budget for the operational and embodied greenhouse gas emissions.
