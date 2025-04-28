@@ -4,7 +4,7 @@ The calculations are done with python and different libraries [1,2]. Germany is 
 
 The calculations are structured in the folders as follows:
 1) "01_static budget determination" calculates a static budget for the operational and embodied greenhouse gas emissions.
-2) "02_functions for emissions development" calculates functions for the development of the share of non-renewable energies in the heating and electricity mix and the emission reduction in the building material industry.
+2) "02_functions for emissions development" calculates functions for the development of the share of non-renewable energies in the heating and electricity mix and the emission reduction in the building material industry based on Arlinghaus [3].
 3) The first two folders are then combinded to calculate the dynamic greenhouse gas budget for operational and embodied emissions in the folder "03_dynamic budget determination".
 
 The yearly results for the operational greenhouse gas budget are: 
@@ -65,3 +65,4 @@ D, Perktold J, Cimrman R, Henriksen I, Quintero EA, Harris CR, Archibald AM, Rib
 Pedregosa F, van Mulbregt P, and SciPy 1.0 Contributors. SciPy 1.0: Fundamental Algorithms for
 Scientific Computing in Python. Nature Methods 2020; 17:261–72. doi: 10.1038/s41592-019-
 0686-2
+[3] Arlinghaus SL. Practical Handbook of Curve Fitting. Boca Raton: CRC PRESS, 2020
